@@ -1,0 +1,81 @@
+body {
+
+    background: rgb(0,0,0);
+   
+}
+
+img {
+    height: 20rem;
+    width: 50rem;
+}
+
+.mainTab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    margin 0 auto;
+    color: rgb(255, 255, 255);
+}
+
+.score2 , .score1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom:1rem ;
+    flex: 1;
+    max-width: 10rem;
+    border: 20px;
+    border-color: aqua;
+   
+}
+
+.score1{
+    background-color: rgb(42, 61, 48);
+
+}
+
+.score2{
+    background-color: rgb(42, 61, 48);
+
+}
+
+.value{
+    font-size: 100px
+}
+
+.overlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.637);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
+#reset2 {  
+    background: red;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+  
+}   
